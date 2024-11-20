@@ -1,0 +1,30 @@
+h1{
+    background-color:burlywood;
+    text-align: center;
+}
+*{
+    background-color: yellow;
+}
+h2 {
+    background-color: blueviolet;
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+td.aw{
+    background-color: orange;
+}
+td.em{
+    background-color: violet;
+}
+td.sor{
+    background-color: blue;
+}
+td.sr{
+    background-color: green;
+}

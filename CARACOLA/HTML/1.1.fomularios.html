@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        margin: 0 30%;
+        
+    }
+</style>
+<body>
+    <!--FORMULARIO 1-->
+    <div>
+    <form>
+        <p>FORMULARIO DE ENCUESTA</p>
+        <label for="nombre">
+            Nombre: <input type="text" placeholder="Indica tu nombre">
+        </label>
+        <br><br><label for="apellidos">
+        ¿ Cuál te parece el mejor capítulo ?: <input type="text" name="apellidos" id="apellidos" placeholder="Si eres moro ni lo pongas">
+        </label>
+        <br><br><label for="apellidos">
+        ¿ Cuál te parece el mejor capítulo ?: <input type="text" name="apellidos" id="apellidos" placeholder="Si eres moro ni lo pongas">
+        </label>
+        <p>¿ Qué nota le pondrías al curso ?: <select name="menu">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <p>Escribe tu mierda:</p>
+        <textarea name="texto" rows="4" cols="40" placeholder=".. Comentarios .."></textarea>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+    <form>
+        <p>EMPLEADOS DE UNA EMPRESA</p>
+        <label for="nombre"></label>
+            Nombre: <input type="text" placeholder="Indica tu nombre">
+            Apellidos: <input type="text" placeholder="Indica tu apellido">
+        </label>
+        <label>
+            <p>Sueldo Bruto: <input type="text"></p>
+            <p>Fecha de alta: <input type="date"></p>
+            <p>Categoría: <input type="text"></p>            
+        </label>
+        <label>
+            Sueldo Neto: <input type="radio" name="boton" value="1">
+            10000 <input type="radio" name="boton" value="2">
+            10000 <input type="radio" name="boton" value="3">
+            100000 <input type="radio" name="boton" value="4">
+            10000000
+        </label>
+        <label>
+            <p>Guia de satisfacción de la empresa: <select name="menu">
+                <option value="1">bajo</option>
+                <option value="2">medio</option>
+                <option value="3">alto</option>
+            </select>
+        </label>
+        <p>Tus comentarios: </p><textarea name="texto" rows="4" cols="40" placeholder=".. Comentarios .."></textarea>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reset">
+        </p>
+
+    </form>
+    </div>
+</body>
+</html>

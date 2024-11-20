@@ -1,0 +1,51 @@
+/* Selector Universal*/
+*{
+    background-color: brown;
+}
+/* Selector Elemento o Etiqueta*/
+H1, address{
+    background-color: blue;
+}
+div{
+    
+    border: solid 5px aqua
+    /*podría ser también 
+    border-color: aqua;
+    border-width: 3px;
+    border-style: groove;*/
+}
+/* Selector de Clase*/
+p.parraz{
+    background-color: goldenrod;
+}
+/*Selector tipo ID*/
+p#fondover{
+    background-color: green;
+}
+/*Selector Descendiente*/
+div p{
+    color: pink;
+    border-top-right-radius: 20px;
+}
+/*Selectores Hijos (afecta solo a los descendientes directos)*/
+div.div2{
+    border-top-color: yellow;
+    border-bottom: yellow 5px double;
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+div.div3{
+    border: black 40px solid;
+    border-image-source: url("https://i.pinimg.com/280x280_RS/75/fc/b8/75fcb87eb54977c6738133c5b3e742fb.jpg");
+    border-image-repeat:repeat;
+    border-image-slice: 70;
+    text-align: justify;
+    border-width: 130px;
+  }
+p.pitudo{
+    text-align: center;
+    font-size:xx-large;
+}
+

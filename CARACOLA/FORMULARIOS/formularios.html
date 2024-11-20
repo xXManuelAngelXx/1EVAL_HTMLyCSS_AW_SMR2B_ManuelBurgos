@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        hr{
+            height: 10px;
+            background-color: black;
+            margin-left: 0%;
+            margin-right: 30%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formularios Ejercicio</h1>
+    <hr>
+    <form>
+        <label for="nombre">
+            Nombre: <input type="text" name="nombre" id="nombre" placeholder="Indica tu nombre">
+        </label>
+        <br><br><label for="apellidos">
+            Apellidos: <input type="text" name="apellidos" id="apellidos" placeholder="Si eres moro ni lo pongas">
+        </label>
+        <br><br><label for="modify"></label>
+            Textazos: <input type="text" name="modify" id="modify" value="Im here Marioooo">
+        </label>
+        <br><br><label for="contra">
+        Contraseña: <input type="password" name="contra" id="contra">
+        </label>
+        <br><br>Escriba un número:
+        <input type="number" name="numero">
+        <label for="fecha">
+            <br><br>Muerte de tu madre: <input type="date" name="fecha">
+        </label>
+        <br><br><label for="tiempo">
+            Hora de la muerte: <input type="time" name="tiempo" id="tiempo">
+        </label>
+        <br><br><label for="teletrabajo">
+            Teletrabajo (¿interesado?): <input type="checkbox" name="teletrabajo" id="teletrabajo">
+        </label>
+        <br><br><label for="deportes">
+            deportes<input type="checkbox" name="deportes" id="deportes">
+        </label>
+        <label for="cine">
+            cine <input type="checkbox" name="cine" id="cine">
+        </label><br><br>
+        
+        <label>
+            AGARRAAAAA:
+            tarde <input type="radio" name="boton" value="1">
+            mañana <input type="radio" name="boton" value="2">
+            partido <input type="radio" name="boton" value="3">
+        </label><br><br>
+        Indique su nivel (de 0 a 6):
+        <input type="range" name="rango"
+        min="0" max="10" list="lista-rango">
+        <datalist id="lista-rango">
+        <option value="2">
+        <option value="4">
+        <option value="6">
+        <option value="8">
+        </datalist>
+        <br><br><br><input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+        <br><br><button>
+        <textarea>PAPAPAPAPAPPPAPAPAPAPAPAPAPAPAPPAPAPAPAPAPAPAPAP</textarea>
+            <br><img src="https://i.pinimg.com/280x280_RS/75/fc/b8/75fcb87eb54977c6738133c5b3e742fb.jpg" alt="imagen" width="32" height="32" style="vertical-align: middle"><br>
+            DON PIMPON
+          </button>
+    </form>
+</body>
+</html>
